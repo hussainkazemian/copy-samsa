@@ -1,0 +1,32 @@
+{
+  "name": "webproject-samsaresturant",
+  "version": "1.0.0",
+  "description": "https://trello.com/b/lsjkAzKa/samsa-project",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+    
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "multer": "^1.4.5-lts.1",
+    "pug": "^3.0.3",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "jsonwebtoken": "^8.5.1",
+    "cors": "^2.8.5",
+    "mariadb": "^2.5.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.14.0",
+    "eslint": "^9.14.0",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.12.0",
+    "prettier": "3.3.3"
+  }
+}
